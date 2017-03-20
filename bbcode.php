@@ -1,3 +1,13 @@
+<!-- You can delete all commentary
+Crée par Rubissar
+
+Sources: https://github.com/Rubissar/BBCodeParser/
+
+contact: mi-zifre@code10.fr
+
+Vous pouvez modifier, réutiliser, republier ce programme, mais me mensionner.
+-->
+
 <form method='post'> <!-- le formulaire d'entrée -->
 <textarea name='text' cols="60" rows="10"><?php if (isset($_POST['text'])) {echo $_POST['text']; } else {echo "Ce parseur permet de faire du [b]gras[/b], de l'[i]italique[/i], du [u]souligné[/u], du [s]barré[/s], des [r]retours [r]à la ligne [r][r]des #hashtags, des mentions @Rubiss, des images (pas très fonctionnel) [img image.jpeg] (support gif, png, jpeg (jpg), svg) et des liens https://fr.wikipedia.org/wiki/PHP (déconne un peu)"; }?></textarea>
 <input type='submit' value='Valider'>
